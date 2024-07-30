@@ -1,0 +1,2 @@
+# goosechat.nvim
+ 
