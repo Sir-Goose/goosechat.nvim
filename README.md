@@ -1,2 +1,3 @@
 # goosechat.nvim
- 
+
+very early...
