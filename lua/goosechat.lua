@@ -14,7 +14,7 @@ function M.copy_down()
 	print(lines)
 
 	-- Append text to the end of the buffer
-	nvim_buf_set_lines(0, -1, -1, true, { "This is a new line" })
+	vim.api.nvim_buf_set_lines(0, -1, -1, true, { "This is a new line" })
 end
 
 return M
