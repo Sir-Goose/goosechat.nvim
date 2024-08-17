@@ -12,6 +12,9 @@ function M.copy_down()
 
 	local lines = vim.fn.getline(line_start, line_end)
 	print(lines)
+
+	-- Append text to the end of the buffer
+	nvim_buf_set_lines(0, -1, -1, true, { "This is a new line" })
 end
 
 return M
