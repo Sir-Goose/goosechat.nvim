@@ -1,0 +1,4 @@
+pyrightconfig.json
+.venv
+.DS_Store
+key.txt
